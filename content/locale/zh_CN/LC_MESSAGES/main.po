@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-06-24 13:43+CST\n"
+"PO-Revision-Date: 2022-06-24 13:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: main.py:63
+msgid "Initializing database..."
+msgstr "正在初始化数据库..."
+
+#: main.py:64
+msgid "Connecting to the database..."
+msgstr "正在连接到数据库..."
+
+#: main.py:67
+msgid "Connected."
+msgstr "已连接。"
+
+#: main.py:69
+msgid "Preparing data for the next operation..."
+msgstr "正在准备下一步操作所需的数据..."
+
+#: main.py:112
+msgid "Total changes: %s."
+msgstr "总更改数：%s."
+
+#: main.py:114
+msgid "Committed. Closing the connection with the database."
+msgstr "已提交。正在关闭与数据库的连接。"
+
+#: main.py:118
+msgid "Initializing RSA Keys..."
+msgstr "正在初始化 RSA 公 / 私钥..."
+
+#: main.py:128
+msgid ""
+"The IPv4 and IPv6 protocols in the configuration are not enabled, and it's "
+"meaningless to continue running."
+msgstr "配置中的 IPv4 / 6 协议均未被启用，因而继续运行是无意义的。"
+
+#: main.py:135
+msgid "IPv4 address read: {0}"
+msgstr "读取到的 IPv4 地址：{0}"
+
+#: main.py:140
+msgid "IPv6 address read: {0}"
+msgstr "读取到的 IPv6 地址：{0}"
+
+#: main.py:163
+msgid "An exception occurred. Failed to listen on the specified configuration."
+msgstr "发生异常。无法在指定的配置上进行监听。"
+
+#: main.py:166
+msgid "IPv4 Address: {0}"
+msgstr "IPv4 地址：{0}"
+
+#: main.py:168
+msgid "IPv4 is not supported."
+msgstr "IPv4 未支持。"
+
+#: main.py:170
+msgid "IPv6 Address: {0}"
+msgstr "IPv6 地址：{0}"
+
+#: main.py:172
+msgid "IPv6 is not supported."
+msgstr "IPv6 未支持。"
+
+#: main.py:174
+msgid "Loading RSA resources..."
+msgstr "正在加载 RSA 资源..."
+
+#: main.py:180
+msgid "Done( %s s)!"
+msgstr "完成（%s 秒）！"
+
+#: main.py:183
+msgid "New connection: %s"
+msgstr "新连接：%s"
+
+#: main.py:190
+msgid "A new thread %s has started."
+msgstr "新线程 %s 已启动。"

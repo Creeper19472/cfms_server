@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-06-24 13:11+CST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: main.py:112
+msgid "提交结束，关闭连接。"
+msgstr ""
+
+#: main.py:116
+msgid "初始化RSA公私钥..."
+msgstr ""
+
+#: main.py:126
+msgid "配置中的 IPv4 和 IPv6 协议均未启用，程序无意义。"
+msgstr ""
+
+#: main.py:133
+msgid "读取到的 IPv4 地址：{0}"
+msgstr ""
+
+#: main.py:138
+msgid "读取到的 IPv6 地址：{0}"
+msgstr ""
+
+#: main.py:161
+msgid "发生异常。未能在指定的配置上进行监听。"
+msgstr ""
+
+#: main.py:164
+msgid "IPv4 Address: {0}"
+msgstr ""
+
+#: main.py:166
+msgid "IPv4 is not supported."
+msgstr ""
+
+#: main.py:168
+msgid "IPv6 Address: {0}"
+msgstr ""
+
+#: main.py:170
+msgid "IPv6 is not supported."
+msgstr ""
+
+#: main.py:172
+msgid "Loading RSA resources..."
+msgstr ""
+
+#: main.py:178
+msgid "完成( %s s)!"
+msgstr ""
+
+#: main.py:181
+msgid "新链接：%s"
+msgstr ""
+
+#: main.py:188
+msgid "A new thread %s has started."
+msgstr ""
+

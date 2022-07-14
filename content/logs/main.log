@@ -1,0 +1,382 @@
+2022-06-23 12:51:22,474 - main.connHandler.Thread-5295 - DEBUG - client request data: CFMS-PROT/1.0 200
+2022-06-23 12:51:22,661 - main.connHandler.Thread-5295 - DEBUG - Encryption enabled successfully. Blowfish key: i0QtpCqx94teIKGNUUy23l%8srDA7M1o.
+2022-06-23 12:51:22,661 - main.connHandler.Thread-5295 - DEBUG - Send: {'Code': 200, 'Title': 'Success', 'Message': 'OK', 'required_client_version': 8, 'server_time': 'Thu Jun 23 12:51:22 2022'}
+2022-06-23 12:51:24,705 - main.connHandler.Thread-5295 - INFO - Connection Reset ('127.0.0.1', 63194). Closing Thread-5295.
+2022-06-23 12:55:09,367 - main.connHandler.Thread-7309 - DEBUG - client request data: CFMS-PROT/1.0 200
+2022-06-23 12:55:09,529 - main.connHandler.Thread-7309 - DEBUG - Encryption enabled successfully. Blowfish key: nLU#rpLJDdWqXkMlYsIoG0h13wvxVufR.
+2022-06-23 12:55:09,531 - main.connHandler.Thread-7309 - DEBUG - Send: {'Code': 200, 'Title': 'Success', 'Message': 'OK', 'required_client_version': 8, 'server_time': 'Thu Jun 23 12:55:09 2022'}
+2022-06-23 12:55:22,162 - main.connHandler.Thread-7309 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': 'master', 'password': 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'}}.
+2022-06-23 12:55:22,164 - main.connHandler.Thread-7309.processRecvObject.1 - DEBUG - 检测到命令：login
+2022-06-23 12:55:22,166 - main.connHandler.Thread-7309.processRecvObject.1 - DEBUG - Found user master, password: b'["a48b644cb419a2a4870f5475a6e2dd93", "00aa"]', userlevel: 5, userrole: b'["admin"]'
+2022-06-23 12:55:22,167 - main.connHandler.Thread-7309.processRecvObject.1 - DEBUG - 运算后所得带salt的摘要：c45465ef4c5993805a3e8097395f0184
+2022-06-23 12:55:22,168 - main.connHandler.Thread-7309.processRecvObject.1 - WARNING - ('127.0.0.1', 64830): User master's password is incorrect. Login failed.
+2022-06-23 12:55:22,169 - main.connHandler.Thread-7309.processRecvObject.1 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 12:55:22 2022'}
+2022-06-23 12:55:23,745 - main.connHandler.Thread-7309 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': 'master', 'password': '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92'}}.
+2022-06-23 12:55:23,747 - main.connHandler.Thread-7309.processRecvObject.2 - DEBUG - 检测到命令：login
+2022-06-23 12:55:23,749 - main.connHandler.Thread-7309.processRecvObject.2 - DEBUG - Found user master, password: b'["a48b644cb419a2a4870f5475a6e2dd93", "00aa"]', userlevel: 5, userrole: b'["admin"]'
+2022-06-23 12:55:23,749 - main.connHandler.Thread-7309.processRecvObject.2 - DEBUG - 运算后所得带salt的摘要：a48b644cb419a2a4870f5475a6e2dd93
+2022-06-23 12:55:23,750 - main.connHandler.Thread-7309.processRecvObject.2 - INFO - ('127.0.0.1', 64830): User master's password is match. Can login.
+2022-06-23 12:55:23,751 - main.connHandler.Thread-7309.processRecvObject.2 - DEBUG - Send: {'Code': 200, 'Title': 'SUCCESS', 'Message': 'Login Success!', 'required_client_version': 8, 'server_time': 'Thu Jun 23 12:55:23 2022'}
+2022-06-23 12:55:24,404 - main.connHandler.Thread-7309 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'dir'}}.
+2022-06-23 12:55:24,406 - main.connHandler.Thread-7309.processRecvObject.3 - DEBUG - bad command. unable to find the command in the definition.
+2022-06-23 12:55:24,407 - main.connHandler.Thread-7309.processRecvObject.3 - DEBUG - Send: {'Code': 400, 'Title': 'Bad_Request', 'Message': 'Bad Request', 'required_client_version': 8, 'server_time': 'Thu Jun 23 12:55:24 2022'}
+2022-06-23 12:55:24,508 - main.connHandler.Thread-7309 - INFO - Connection Reset ('127.0.0.1', 64830). Closing Thread-7309.
+2022-06-23 13:02:49,191 - main.connHandler.Thread-6116 - DEBUG - client request data: GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:02:49,192 - main.connHandler.Thread-6116 - INFO - Disconnecting from ('127.0.0.1', 12542): HTTP requests. Closing Thread-6116.
+2022-06-23 13:02:49,548 - main.connHandler.Thread-1436 - DEBUG - client request data: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8080/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:02:49,549 - main.connHandler.Thread-1436 - INFO - Disconnecting from ('127.0.0.1', 12544): HTTP requests. Closing Thread-1436.
+2022-06-23 13:02:58,318 - main.connHandler.Thread-8559 - DEBUG - client request data: GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:02:58,326 - main.connHandler.Thread-8559 - INFO - Disconnecting from ('127.0.0.1', 12772): HTTP requests. Closing Thread-8559.
+2022-06-23 13:02:58,512 - main.connHandler.Thread-2870 - DEBUG - client request data: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8080/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:02:58,514 - main.connHandler.Thread-2870 - INFO - Disconnecting from ('127.0.0.1', 12774): HTTP requests. Closing Thread-2870.
+2022-06-23 13:04:14,815 - main.connHandler.Thread-1859 - DEBUG - client request data: GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:04:14,820 - main.connHandler.Thread-1859 - INFO - Disconnecting from ('127.0.0.1', 13592): HTTP requests. Closing Thread-1859.
+2022-06-23 13:04:15,810 - main.connHandler.Thread-1387 - DEBUG - client request data: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8080/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:04:15,811 - main.connHandler.Thread-1387 - INFO - Disconnecting from ('127.0.0.1', 13594): HTTP requests. Closing Thread-1387.
+2022-06-23 13:04:16,223 - main.connHandler.Thread-4120 - DEBUG - client request data: GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:04:16,224 - main.connHandler.Thread-4120 - INFO - Disconnecting from ('127.0.0.1', 13612): HTTP requests. Closing Thread-4120.
+2022-06-23 13:04:16,485 - main.connHandler.Thread-2190 - DEBUG - client request data: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8080/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 13:04:16,488 - main.connHandler.Thread-2190 - INFO - Disconnecting from ('127.0.0.1', 13616): HTTP requests. Closing Thread-2190.
+2022-06-23 13:04:19,964 - main.connHandler.Thread-1852 - DEBUG - client request data: 
+2022-06-23 13:04:19,965 - main.connHandler.Thread-1852 - INFO - Disconnecting from ('127.0.0.1', 13614): Unknown request. Closing Thread-1852.
+2022-06-23 13:05:35,594 - main.connHandler.Thread-5931 - DEBUG - client request data: 
+2022-06-23 13:05:35,595 - main.connHandler.Thread-5931 - INFO - Disconnecting from ('127.0.0.1', 14100): Unknown request. Closing Thread-5931.
+2022-06-23 13:05:52,716 - main.connHandler.Thread-223 - DEBUG - client request data: CFMS-PROT/1.0 200
+2022-06-23 13:05:52,930 - main.connHandler.Thread-223 - DEBUG - Encryption enabled successfully. Blowfish key: pbw9NX3unoC17fK4dPvzWg0NMGSje*DJ.
+2022-06-23 13:05:52,932 - main.connHandler.Thread-223 - DEBUG - Send: {'Code': 200, 'Title': 'Success', 'Message': 'OK', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:05:52 2022'}
+2022-06-23 13:05:55,662 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:05:55,664 - main.connHandler.Thread-223.processRecvObject.1 - DEBUG - 检测到命令：login
+2022-06-23 13:05:55,666 - main.connHandler.Thread-223.processRecvObject.1 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:05:55,668 - main.connHandler.Thread-223.processRecvObject.1 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:05:55 2022'}
+2022-06-23 13:05:56,197 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:05:56,199 - main.connHandler.Thread-223.processRecvObject.2 - DEBUG - 检测到命令：login
+2022-06-23 13:05:56,201 - main.connHandler.Thread-223.processRecvObject.2 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:05:56,202 - main.connHandler.Thread-223.processRecvObject.2 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:05:56 2022'}
+2022-06-23 13:05:56,391 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:01,216 - main.connHandler.Thread-223.processRecvObject.3 - DEBUG - 检测到命令：login
+2022-06-23 13:06:01,220 - main.connHandler.Thread-223.processRecvObject.3 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:01,230 - main.connHandler.Thread-223.processRecvObject.3 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:01 2022'}
+2022-06-23 13:06:01,242 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:01,247 - main.connHandler.Thread-223.processRecvObject.4 - DEBUG - 检测到命令：login
+2022-06-23 13:06:01,250 - main.connHandler.Thread-223.processRecvObject.4 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:01,251 - main.connHandler.Thread-223.processRecvObject.4 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:01 2022'}
+2022-06-23 13:06:01,259 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:01,265 - main.connHandler.Thread-223.processRecvObject.5 - DEBUG - 检测到命令：login
+2022-06-23 13:06:01,270 - main.connHandler.Thread-223.processRecvObject.5 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:01,278 - main.connHandler.Thread-223.processRecvObject.5 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:01 2022'}
+2022-06-23 13:06:01,283 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:01,290 - main.connHandler.Thread-223.processRecvObject.6 - DEBUG - 检测到命令：login
+2022-06-23 13:06:01,293 - main.connHandler.Thread-223.processRecvObject.6 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:01,300 - main.connHandler.Thread-223.processRecvObject.6 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:01 2022'}
+2022-06-23 13:06:01,306 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:01,313 - main.connHandler.Thread-223.processRecvObject.7 - DEBUG - 检测到命令：login
+2022-06-23 13:06:01,335 - main.connHandler.Thread-223.processRecvObject.7 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:01,350 - main.connHandler.Thread-223.processRecvObject.7 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:01 2022'}
+2022-06-23 13:06:06,174 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,178 - main.connHandler.Thread-223.processRecvObject.8 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,180 - main.connHandler.Thread-223.processRecvObject.8 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,182 - main.connHandler.Thread-223.processRecvObject.8 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:06,317 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,321 - main.connHandler.Thread-223.processRecvObject.9 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,324 - main.connHandler.Thread-223.processRecvObject.9 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,326 - main.connHandler.Thread-223.processRecvObject.9 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:06,460 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,464 - main.connHandler.Thread-223.processRecvObject.10 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,466 - main.connHandler.Thread-223.processRecvObject.10 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,467 - main.connHandler.Thread-223.processRecvObject.10 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:06,603 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,612 - main.connHandler.Thread-223.processRecvObject.11 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,615 - main.connHandler.Thread-223.processRecvObject.11 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,616 - main.connHandler.Thread-223.processRecvObject.11 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:06,750 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,760 - main.connHandler.Thread-223.processRecvObject.12 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,767 - main.connHandler.Thread-223.processRecvObject.12 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,768 - main.connHandler.Thread-223.processRecvObject.12 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:06,923 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:06,925 - main.connHandler.Thread-223.processRecvObject.13 - DEBUG - 检测到命令：login
+2022-06-23 13:06:06,928 - main.connHandler.Thread-223.processRecvObject.13 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:06,929 - main.connHandler.Thread-223.processRecvObject.13 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:06 2022'}
+2022-06-23 13:06:07,074 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,086 - main.connHandler.Thread-223.processRecvObject.14 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,090 - main.connHandler.Thread-223.processRecvObject.14 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,092 - main.connHandler.Thread-223.processRecvObject.14 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:07,231 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,234 - main.connHandler.Thread-223.processRecvObject.15 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,237 - main.connHandler.Thread-223.processRecvObject.15 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,238 - main.connHandler.Thread-223.processRecvObject.15 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:07,398 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,404 - main.connHandler.Thread-223.processRecvObject.16 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,406 - main.connHandler.Thread-223.processRecvObject.16 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,411 - main.connHandler.Thread-223.processRecvObject.16 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:07,518 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,524 - main.connHandler.Thread-223.processRecvObject.17 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,528 - main.connHandler.Thread-223.processRecvObject.17 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,530 - main.connHandler.Thread-223.processRecvObject.17 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:07,695 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,706 - main.connHandler.Thread-223.processRecvObject.18 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,711 - main.connHandler.Thread-223.processRecvObject.18 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,718 - main.connHandler.Thread-223.processRecvObject.18 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:07,849 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:07,859 - main.connHandler.Thread-223.processRecvObject.19 - DEBUG - 检测到命令：login
+2022-06-23 13:06:07,862 - main.connHandler.Thread-223.processRecvObject.19 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:07,864 - main.connHandler.Thread-223.processRecvObject.19 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:07 2022'}
+2022-06-23 13:06:08,006 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:08,011 - main.connHandler.Thread-223.processRecvObject.20 - DEBUG - 检测到命令：login
+2022-06-23 13:06:08,013 - main.connHandler.Thread-223.processRecvObject.20 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:08,015 - main.connHandler.Thread-223.processRecvObject.20 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:08 2022'}
+2022-06-23 13:06:08,113 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:08,121 - main.connHandler.Thread-223.processRecvObject.21 - DEBUG - 检测到命令：login
+2022-06-23 13:06:08,125 - main.connHandler.Thread-223.processRecvObject.21 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:08,127 - main.connHandler.Thread-223.processRecvObject.21 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:08 2022'}
+2022-06-23 13:06:08,382 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:08,392 - main.connHandler.Thread-223.processRecvObject.22 - DEBUG - 检测到命令：login
+2022-06-23 13:06:08,396 - main.connHandler.Thread-223.processRecvObject.22 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:08,398 - main.connHandler.Thread-223.processRecvObject.22 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:08 2022'}
+2022-06-23 13:06:09,449 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:09,452 - main.connHandler.Thread-223.processRecvObject.23 - DEBUG - 检测到命令：login
+2022-06-23 13:06:09,455 - main.connHandler.Thread-223.processRecvObject.23 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:09,456 - main.connHandler.Thread-223.processRecvObject.23 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:09 2022'}
+2022-06-23 13:06:09,611 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:09,617 - main.connHandler.Thread-223.processRecvObject.24 - DEBUG - 检测到命令：login
+2022-06-23 13:06:09,622 - main.connHandler.Thread-223.processRecvObject.24 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:09,624 - main.connHandler.Thread-223.processRecvObject.24 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:09 2022'}
+2022-06-23 13:06:09,783 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': '', 'password': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}.
+2022-06-23 13:06:09,786 - main.connHandler.Thread-223.processRecvObject.25 - DEBUG - 检测到命令：login
+2022-06-23 13:06:09,788 - main.connHandler.Thread-223.processRecvObject.25 - WARNING - ('127.0.0.1', 14302): Username is incorrect. Login failed.
+2022-06-23 13:06:09,790 - main.connHandler.Thread-223.processRecvObject.25 - DEBUG - Send: {'Code': 400, 'Title': 'Login FAILED', 'Message': 'Incorrect username or password.', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:09 2022'}
+2022-06-23 13:06:14,032 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'login', 'username': 'master', 'password': '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92'}}.
+2022-06-23 13:06:14,035 - main.connHandler.Thread-223.processRecvObject.26 - DEBUG - 检测到命令：login
+2022-06-23 13:06:14,038 - main.connHandler.Thread-223.processRecvObject.26 - DEBUG - Found user master, password: b'["a48b644cb419a2a4870f5475a6e2dd93", "00aa"]', userlevel: 5, userrole: b'["admin"]'
+2022-06-23 13:06:14,040 - main.connHandler.Thread-223.processRecvObject.26 - DEBUG - 运算后所得带salt的摘要：a48b644cb419a2a4870f5475a6e2dd93
+2022-06-23 13:06:14,041 - main.connHandler.Thread-223.processRecvObject.26 - INFO - ('127.0.0.1', 14302): User master's password is match. Can login.
+2022-06-23 13:06:14,041 - main.connHandler.Thread-223.processRecvObject.26 - DEBUG - Send: {'Code': 200, 'Title': 'SUCCESS', 'Message': 'Login Success!', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:14 2022'}
+2022-06-23 13:06:14,546 - main.connHandler.Thread-223 - DEBUG - Get: {'Msg': 'CMD', 'Type': 'client/request/command', 'Data': {'cmd': 'dir'}}.
+2022-06-23 13:06:14,548 - main.connHandler.Thread-223.processRecvObject.27 - DEBUG - bad command. unable to find the command in the definition.
+2022-06-23 13:06:14,549 - main.connHandler.Thread-223.processRecvObject.27 - DEBUG - Send: {'Code': 400, 'Title': 'Bad_Request', 'Message': 'Bad Request', 'required_client_version': 8, 'server_time': 'Thu Jun 23 13:06:14 2022'}
+2022-06-23 13:06:14,643 - main.connHandler.Thread-223 - INFO - Connection Reset ('127.0.0.1', 14302). Closing Thread-223.
+2022-06-23 18:03:30,938 - main.connHandler.Thread-2132 - DEBUG - client request data: GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 18:03:30,939 - main.connHandler.Thread-2132 - INFO - Disconnecting from ('127.0.0.1', 28704): HTTP requests. Closing Thread-2132.
+2022-06-23 18:03:31,204 - main.connHandler.Thread-5209 - DEBUG - client request data: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8080/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+2022-06-23 18:03:31,204 - main.connHandler.Thread-5209 - INFO - Disconnecting from ('127.0.0.1', 28706): HTTP requests. Closing Thread-5209.
+2022-06-23 18:04:35,954 - main.connHandler.Thread-4053 - DEBUG - client request data: 
+2022-06-23 18:04:35,955 - main.connHandler.Thread-4053 - INFO - Disconnecting from ('127.0.0.1', 28722): Unknown request. Closing Thread-4053.
+2022-06-23 18:09:08,460 - main.connHandler.Thread-4303 - DEBUG - client request data: 
+2022-06-23 18:09:08,460 - main.connHandler.Thread-4303 - INFO - Disconnecting from ('127.0.0.1', 31228): Unknown request. Closing Thread-4303.
+2022-06-23 18:10:30,890 - main.connHandler.Thread-6016 - DEBUG - client request data: 
+2022-06-23 18:10:30,891 - main.connHandler.Thread-6016 - INFO - Disconnecting from ('127.0.0.1', 31922): Unknown request. Closing Thread-6016.
+2022-06-23 18:12:56,697 - main.connHandler.Thread-8007 - DEBUG - client request data: 
+2022-06-23 18:12:56,697 - main.connHandler.Thread-8007 - INFO - Disconnecting from ('127.0.0.1', 32342): Unknown request. Closing Thread-8007.
+2022-06-24 13:22:31,795 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:22:31,798 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:22:31,798 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:22:31,803 - main - DEBUG - 读取到的 IPv4 地址：('127.0.0.1', 8080)
+2022-06-24 13:22:31,804 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:22:31,804 - main - INFO - IPv6 is not supported.
+2022-06-24 13:22:31,805 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:22:31,810 - main - INFO - 完成( 0.014743328094482422 s)!
+2022-06-24 13:44:35,872 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:44:35,874 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:44:35,874 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:44:35,879 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:44:35,880 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:44:35,880 - main - INFO - IPv6 is not supported.
+2022-06-24 13:44:35,881 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:44:35,882 - main - INFO - Done( 0.01015615463256836 s)!
+2022-06-24 13:45:47,250 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:45:47,251 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:45:47,251 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:45:47,259 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:45:47,260 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:45:47,261 - main - INFO - IPv6 is not supported.
+2022-06-24 13:45:47,262 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:45:47,262 - main - INFO - Done( 0.012108087539672852 s)!
+2022-06-24 13:46:27,012 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:46:27,013 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:46:27,013 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:46:27,018 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:46:27,019 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:46:27,019 - main - INFO - IPv6 is not supported.
+2022-06-24 13:46:27,019 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:46:27,020 - main - INFO - Done( 0.0075953006744384766 s)!
+2022-06-24 13:46:44,948 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:46:44,949 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:46:44,950 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:46:55,467 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:46:55,467 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:46:55,468 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:46:55,473 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:46:55,474 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:46:55,474 - main - INFO - IPv6 is not supported.
+2022-06-24 13:46:55,474 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:46:55,475 - main - INFO - Done( 0.008121967315673828 s)!
+2022-06-24 13:48:12,209 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:48:12,210 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:48:12,211 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:48:12,219 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:48:12,220 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:48:12,220 - main - INFO - IPv6 is not supported.
+2022-06-24 13:48:12,221 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:48:12,222 - main - INFO - Done( 0.012121438980102539 s)!
+2022-06-24 13:48:25,753 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:48:25,753 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:48:25,754 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:49:04,652 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:49:04,652 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:49:04,652 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:49:04,657 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:49:04,658 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:49:04,658 - main - INFO - IPv6 is not supported.
+2022-06-24 13:49:04,658 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:49:04,659 - main - INFO - Done( 0.007130861282348633 s)!
+2022-06-24 13:49:06,549 - main - INFO - Starting Classified File Management System - Server...
+2022-06-24 13:49:06,549 - main - INFO - Version 0.0.1.4945[r]
+2022-06-24 13:49:06,550 - main - INFO - Running On: Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0]
+2022-06-24 13:49:06,556 - main - DEBUG - IPv4 address read: ('127.0.0.1', 8080)
+2022-06-24 13:49:06,557 - main - INFO - IPv4 Address: ('127.0.0.1', 8080)
+2022-06-24 13:49:06,557 - main - INFO - IPv6 is not supported.
+2022-06-24 13:49:06,558 - main - DEBUG - Loading RSA resources...
+2022-06-24 13:49:06,558 - main - INFO - Done( 0.009585380554199219 s)!
